@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Corinthia&family=Oleo+Script&family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(236, 243, 248);
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 30rem;
+    background-color: rgb(238, 238, 238);
+    margin: 3rem auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgb(86, 86, 86);
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    font: inherit;
+    border-radius: 6px;
+    margin: 0.25rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.userreply {
+    display: flex;
+}
+
+.userreply input {
+    width: auto;
+    margin-right: 0.5rem;
+
+
+}
+
+.acceptterms {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.acceptterms input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    margin: 0 2px;
+    font: inherit;
+}
+
+.clear-button {
+    
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-right: 2rem;
+}
+
+.clear-button:hover {
+    color: white;
+    background-color: rgb(120, 102, 240);
+}
+
+.submit-button {
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(83, 58, 244);
+    margin-right: 2rem;
+
+}
+
+.submit-button:hover {
+    background-color: rgb(120, 102, 240);
+}
